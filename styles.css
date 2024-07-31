@@ -1,0 +1,120 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, sans-serif; */
+}
+
+.parallax-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.parallax-container h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+
+}
+.parallax-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/599c75ede9bfdfe898f03f2a/1549839389454-V3EMXKBSKP3WS3IAJ9WE/yellow_messy_2000x1350_v2.jpg?format=2500w');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    z-index: 1;
+}
+.scrolling-content,.scrolling-content-2,.scrolling-content-3 h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 30px;
+}
+.scrolling-content,.scrolling-content-2,.scrolling-content-3 p{
+    font-size: 20px;
+    font-weight: 10px;
+    text-align: justify;
+
+}
+.scrolling-content {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/599c75ede9bfdfe898f03f2a/1718993730398-OJQU6OW9BUF7LY0T9B52/Scoop+AShop+2.png?format=2500w');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 80vh;
+}
+
+.scrolling-content-2 {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+.scrolling-content-2 img{
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.parallax-bg-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.scrolling-content-2 .row {
+    position: relative;
+    z-index: 1;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.scrolling-content-3 {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.parallax-bg-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/599c75ede9bfdfe898f03f2a/1648661995656-4SZCU65IGBASAL61YRA9/Untitled+design+%285%29.png?format=2500w');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.scrolling-content-3 .row {
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding: 20px;
+}
